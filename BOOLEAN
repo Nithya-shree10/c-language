@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdbool.h>
+bool aaa();
+bool aaa()
+{
+    int a=2;
+    return a<9;
+}
+void main()
+{
+    if (aaa())
+        printf("CSE");
+    else
+        printf("ECE");
+
+}
