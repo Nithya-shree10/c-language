@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+//ascii value
+{
+    int a='B';
+    printf("%d",a);
+
+}
