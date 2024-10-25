@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include<string.h>
+int isPalindrome(char str,int st,int end){
+    if(st>=end)
+    {
+        return;
+        }
+    }
+
+
+void main()
+{
+    int n;
+    scanf("%d",&n);
+
+char str[n];
+printf("Enter a value of a string");
+scanf("%s",&str);
+if(isPalindrome(str,0,n-1)){
+    printf("PALINDROME");}
+else{
+    printf("NOT A PALINDROME");
+}
+}
