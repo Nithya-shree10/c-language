@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    char str[]="Nithya";
+    char str2[50];
+    int i;
+    for(i=0;str[i]!='\0';i++)
+    {
+
+    str2[i]=str[i];
+}
+    printf("Copied elements are:%s",str2);
+
+    return 0;
+}
